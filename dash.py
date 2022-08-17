@@ -62,3 +62,11 @@ if __name__ == '__main__':
     main()
     st.sidebar.markdown("""## Attention: This is just a didactic project on the use of Artificial Intelligence. The results presented here have NO scientific proof!!!""")
     st.markdown("""## Attention: This is just a didactic project on the use of Artificial Intelligence. The results presented here have NO scientific proof!!!""")
+
+    url = "https://www.kaggle.com/code/leodaniel/machine-learning-101-from-zero-to-hero/"
+    st.markdown("<small>**Kaggle model preparation**: [link](%s)</small>"% url, unsafe_allow_html=True)
+
+    url = "https://github.com/professortavares/cardiograma"
+    st.markdown("""<small>**Dash source code**: [Github](%s)</small>"""%url, 
+                unsafe_allow_html=True)
+
